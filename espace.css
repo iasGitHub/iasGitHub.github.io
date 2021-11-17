@@ -13,7 +13,6 @@ body{
 }
 
 #espace{
-    text-align: center;
     padding: 40px;
     background: #CE0033;
     color: white;
@@ -67,9 +66,11 @@ h2{
     height: 7px;
 }
 
-ul li a {
+.nav-link{
     text-decoration: none;
     color: black;
+    font-size: 16px;
+    font-weight: bold;
 }
 #card-rse{
     max-width: 100%;
