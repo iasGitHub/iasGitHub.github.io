@@ -1,6 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
 
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Nunito Sans', sans-serif;
+}
 .nav-link{
     text-decoration: none;
     color: black;
@@ -12,20 +19,35 @@
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 #espace{
-    padding: 40px;
+    font-size: 40px;
+    padding: 45px;
+    font-weight: bold;
     background: #CE0033;
     color: white;
-    height: 140px;
+    height: 144px;
 }
-#titre-section1,#titre-section2{
+#titre-section1,#titre-section2,
+#titre-section3,#titre-section4{
     font-size: 48px;
     color: black
 }
 h3{
     color: #CE0033;
 }
-#sous-titre1-section1,#sous-titre2-section1,#sous-titre1-section2{
-    width: 110px; 
+#emplacement{
+    width: 70px; 
+    height: 5px;
+    position: absolute;
+    margin-top: 28px;
+    background-color: #CE0033;
+}
+
+#sous-titre1-section1,#sous-titre2-section1,
+#sous-titre1-section2,#sous-titre1-section3,
+#sous-titre2-section3,#sous-titre3-section3,
+#sous-titre3-section3,#sous-titre4-section3,
+#sous-titre5-section3{
+    width: 110px;
     height: 5px; 
     background-color: black;
 }
@@ -76,10 +98,8 @@ h3{
     background-color: #C4C4C4;
     opacity: 0.3;
 }
-p .card-text{
-    justify-content: left;
-    font-size: 25px;
-    text-align: center;
+#btn-appel1,#btn-appel2{
+    margin-left: 10px;
 }
 
 .card-text small{
@@ -91,7 +111,9 @@ p .card-text{
 }
 .separate{
     color: #CE0033;
+    width: 1680px;
     height: 7px;
+    margin-left: 110px;
 }
 
 #a-propos-du-rso{
@@ -116,10 +138,70 @@ p .card-text{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
+form input, textarea{
+    box-shadow: 2px 2px 5px #5E6D6C;
+}
+#rens{
+    margin-top: 20px;
+}
+#parainer{
+    background-color: #CE0033;
+    color: white;
+}
+#caroussInd1{
+    background-color:#CE0033;
+}
+
+.page-footer{
+    background-image: url(../images/footer.png);
+   margin-top: 10px;
+   height: 80%;
+   color: #FFFFFF;
+}
+
+.page-footer p{
+ font-size: 15px;
+}
+.page-footer h6{
+   font-size: 17px;
+}
+.page-footer h1{
+   font-size: 17px;
+}
+.page-footer img{
+   width: 30px;
+   height: 30px;
+}
+#joindre{
+    background-color: #CE0033;
+    color: white;
+}
+#img-footer1{
+    width: 242px;
+    height: 61px;
+}
+#img-footer2{
+    width: 91px;
+    height: 27px;
+}
+#bas-du-footer{
+    background-color: #CE0033;
+}
+
+
 
 @media screen and (max-width: 900px){
     
-    
+    #emplacement{
+        width: 62px; 
+        height: 5px;
+        position: absolute;
+        margin-top: 5px;
+        background-color: #CE0033;
+    }
+    .card-text, #btn-appel1,#btn-appel2{
+        margin-left: 10px;
+    }
     #titre-section{
         font-size: 25px;
         color: black;
@@ -136,6 +218,9 @@ p .card-text{
     #carte1,#carte2,#carte3,#carte4{
         text-align: center;
     }
+    #carte2,#carte3,#carte4{
+        margin-top: 25px;
+    }
     .container-fluid #barre1-entre-chiffre {
         display: none;
     }
@@ -147,9 +232,8 @@ p .card-text{
     }
     .separate{
         color: #CE0033;
-        margin-left: 50px;
         height: 7px;
-        width: 75%;
+        width: 100%;
     }
     #a-propos-du-rso{
         text-align: center;
@@ -160,7 +244,7 @@ p .card-text{
     }
     #parag-a-propos-rso{
         margin-top: -40px;
-        font-size: 8px;
+        font-size: 12px;
     }
     #video1{
         margin-top: -2px;
@@ -178,6 +262,28 @@ p .card-text{
         height: 50px;
         border: #CE0033;
     }
+    #rens{
+        margin-left: 140px;
+    }
+    #imgDepo{
+        margin-left: 70px;
+    }
+    #vide{
+        display: none;
+    }
+    .page-footer{
+        background-image: url(../images/footer.png);
+        margin-top: 45px;
+        height: 450px;
+        color: #FFFFFF;
+    }
+    .page-footer p{
+      font-size: 20px;
+    }
+    #ce-qu-est-cohorte{
+        text-align: center;
+    }
+    #simp4{
+        margin-left: 60px;
+    }
 }
-
-
