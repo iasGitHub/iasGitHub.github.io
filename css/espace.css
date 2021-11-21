@@ -7,6 +7,7 @@
 }
 body{
     font-family: 'Nunito Sans', sans-serif;
+    overflow-x: hidden;
 }
 .nav-link{
     text-decoration: none;
@@ -196,6 +197,14 @@ form input, textarea{
     height: 451px;
 }
 
+h5{
+    font-weight: bold;
+}
+.carousel-item{
+    overflow: hidden;
+}
+
+
 
 
 @media screen and (max-width: 900px){
@@ -279,11 +288,8 @@ form input, textarea{
     #vide{
         display: none;
     }
-    .page-footer{
-        background-image: url(../images/footer.png);
-        margin-top: 45px;
-        height: 450px;
-        color: #FFFFFF;
+    #slide1, #slide2, #slide3{
+        width: 490px;
     }
     .page-footer p{
       font-size: 20px;
@@ -297,6 +303,7 @@ form input, textarea{
     #parainer{
         position: static;
     }
+    
 }
 
 
