@@ -146,6 +146,7 @@ form input, textarea{
 }
 #parainer{
     background-color: #CE0033;
+    height: 40vh;
     color: white;
 }
 #caroussInd1{
@@ -186,6 +187,13 @@ form input, textarea{
 }
 #bas-du-footer{
     background-color: #CE0033;
+}
+#ce-cohorte{
+    margin-top: 340px;
+}
+#slide1, #slide2, #slide3{
+    width: 1236px;
+    height: 451px;
 }
 
 
@@ -286,4 +294,9 @@ form input, textarea{
     #simp4{
         margin-left: 60px;
     }
+    #parainer{
+        position: static;
+    }
 }
+
+
